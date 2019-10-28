@@ -5,4 +5,14 @@ package com.hillel.lecture_4;
  */
 public class PrintCharTestTask {
 
+    public static void main(String[] args) {
+
+        int n =255;
+        for(int i=135; i<=n; i++){
+            System.out.println(i);
+        }
+    }
+
+
+
 }

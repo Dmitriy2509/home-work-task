@@ -38,3 +38,22 @@ public class LinearEquationTest {
         assertEquals(linearEquationChecker.linearEquation(a, b), 0.0);
     }
 }
+
+//something went wrong and I could open the methods of this page. I wrote my code here.
+// psvm(){
+// double result =0.0;
+
+// if (a>0 && b>0){
+// double x =-b/a;
+    //result = x;
+// } else if (a==0){
+// System.out.println("error");
+//result =0.0;
+// } else if (b==0){
+// System.out.println("error");.
+//result =0.0;
+// }
+//return result;
+//  }
+//
+//

@@ -10,6 +10,16 @@ public class ReverseStringChecker {
 //        TODO implements result
         String result = "";
 
+        char [] reverseArray  = value.toCharArray(); //change value to char type
+
+        for (int i = reverseArray.length-1; i<=0; i--){
+
+
+            System.out.print(reverseArray[i]);
+
+            //result = ;
+        }
+
         return result;
     }
 

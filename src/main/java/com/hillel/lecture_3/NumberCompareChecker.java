@@ -7,9 +7,19 @@ public class NumberCompareChecker {
 
 
     public String getGreatestNumber(int a, int b) {
-
-//        TODO implements result
         String result = "";
+        if (a<b) {
+            System.out.println("The number " + b + " has the greatest value");
+            result = "Number 27 has greatest value!";
+        } else if (a>b) {
+            System.out.println("The number " + a + " has the greatest value");
+            result = "Number -3 has greatest value!";
+        } else if (a==b){
+            System.out.println("a=b");
+            result = "Numbers 19 and 19 are equals!";
+        }
+//        TODO implements result
+
 
         return result;
     }

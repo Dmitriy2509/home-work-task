@@ -9,6 +9,13 @@ public class DivisorChecker {
         //        TODO implements result
         String result = "";
 
+        if (divisor%number ==0 || number%divisor ==0 ){
+            System.out.println("число а является делителем числа b");
+            result = "число а является делителем числа b";
+        } else {
+            System.out.println("число  не а является делителем числа b");
+            result = "число а не является делителем числа b";
+        }
         return result;
     }
 }

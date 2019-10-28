@@ -1,15 +1,15 @@
-package com.hillel.lecture_4;
+/*package com.hillel.lecture_4;
 
 /**
  * Created by alpa on 10/25/19
  */
-public class BinaryToDecimalChecker {
+/*public class BinaryToDecimalChecker {
 
-    public int fromDecimalToBinary(int value) {
+   public int fromDecimalToBinary(int value) {
 
 //        TODO implements result
         int result = 0;
-
+        result = Integer.toBinaryString(value);
         return result;
     }
 
@@ -17,7 +17,7 @@ public class BinaryToDecimalChecker {
 
 //        TODO implements result
         int result = 0;
-
+        result = Integer.parseInt(value,2);
         return result;
     }
-}
+} */

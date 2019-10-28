@@ -3,13 +3,21 @@ package com.hillel.lecture_3;
 /**
  * Created by alpa on 10/22/19
  */
-public class LinearEquationChecker {
+/*public class LinearEquationChecker {
 
-    public int linearEquation(int a, int b) {
+    public double linearEquation(double a, double b) {
 
 //        TODO implements result
-        int result = 0;
+        double result = 0;
+        if(a==0 || b==0){
+        result= 0;
+
+    } else{
+            double x=-b/a;
+            result= x;
+    }
 
         return result;
-    }
-}
+
+
+}*/

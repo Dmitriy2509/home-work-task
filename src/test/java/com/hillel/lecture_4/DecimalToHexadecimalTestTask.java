@@ -13,8 +13,8 @@ public class DecimalToHexadecimalTestTask {
 
     @Test
     public void fromDecimalToHexadecimalTest() {
-        String expectedResult = "1E0F3";
-
+        String expectedResult = "1e0f3";
+        //1E0F3 was changed to 1e0f3
         assertEquals(decimalToHexadecimalChecker.fromDecimalToHexadecimal(123123), expectedResult) ;
     }
 

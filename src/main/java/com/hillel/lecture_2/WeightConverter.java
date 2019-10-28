@@ -7,14 +7,18 @@ public class WeightConverter {
 
     public double kilogramsToPounds(double kilograms) {
 //        TODO implements result
-        double result = 0.0;
-        return result;
+
+        double pounds = kilograms * 2.20462;
+        //double result = 0.0;
+        return pounds;
     }
 
     public double poundsToKilograms(double pounds) {
 //        TODO implements result
-        double result = 0.0;
-        return result;
+
+        double kilograms = pounds / 2.20462;
+        //double result = 0.0;
+        return kilograms;
     }
 
 }

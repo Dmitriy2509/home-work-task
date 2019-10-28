@@ -8,8 +8,21 @@ public class OddEvenChecker {
 
     public String checkNumber(int number) {
 
-//        TODO implements result
         String result = "";
+
+        if (number % 2 == 0){
+
+            System.out.println("Even Number");
+            System.out.println("BYE");
+            result = "Even Number";
+        } else{
+
+            System.out.println("Odd Number");
+            System.out.println("BYE");
+            result = "Odd Number";
+        }
+//        TODO implements result
+
 
         return result;
     }
