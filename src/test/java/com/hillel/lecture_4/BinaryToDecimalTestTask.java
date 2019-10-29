@@ -26,3 +26,16 @@ import static org.testng.Assert.assertEquals;
     }
 
 }*/
+/* I broke the methods of this test. I write my code here.
+fromDecimalToBinary
+int result =0;
+//I used method
+int result = Integer.toBinaryString(666);
+return result;
+
+romBinaryToDecimal
+int result =0;
+
+int result = Integer.parseInt(1100001001,2);
+return result;
+ */

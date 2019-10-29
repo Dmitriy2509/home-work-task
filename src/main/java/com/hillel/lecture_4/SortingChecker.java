@@ -16,10 +16,11 @@ public class SortingChecker {
                     int tmp = values[j];
                     values[j] =values[j+1];
                     values[j+1]= tmp;
+                     result =  values ;
                 }
-
-            }
-        }
+                result =  values;
+            }result =  values;
+        }result =  values;
 
         return result;
     }

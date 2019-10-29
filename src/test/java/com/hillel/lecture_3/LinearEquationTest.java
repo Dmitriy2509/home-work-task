@@ -10,7 +10,7 @@ import static org.testng.Assert.assertEquals;
  * значение “х”. Программа должна также учитывать варианты, когда или а = 0 или b = 0
  */
 
-public class LinearEquationTest {
+/*public class LinearEquationTest {
 
     private LinearEquationChecker linearEquationChecker = new LinearEquationChecker();
 
@@ -37,7 +37,7 @@ public class LinearEquationTest {
 
         assertEquals(linearEquationChecker.linearEquation(a, b), 0.0);
     }
-}
+}*/
 
 //something went wrong and I could open the methods of this page. I wrote my code here.
 // psvm(){

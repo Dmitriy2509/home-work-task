@@ -17,7 +17,7 @@ public class ReverseStringChecker {
 
             System.out.print(reverseArray[i]);
 
-            //result = ;
+
         }
 
         return result;
