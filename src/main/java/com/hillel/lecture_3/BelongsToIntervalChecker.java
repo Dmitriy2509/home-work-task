@@ -1,12 +1,17 @@
 package com.hillel.lecture_3;
 
+
 import java.util.Scanner;
+
+import io.qameta.allure.Step;
+
 
 /**
  * Created by alpa on 10/22/19
  */
 public class BelongsToIntervalChecker {
 
+    @Step
     public String checkNumberInInterval(int from, int to, int number) {
 
         Scanner scan = new Scanner(System.in);
@@ -54,8 +59,8 @@ public class BelongsToIntervalChecker {
         return result;
     }
 }
-// if (int>-5){
+/* if (int>-5){
 //
 // }else if (int<-5){
 //
-// }
+// }*/

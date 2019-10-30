@@ -1,10 +1,13 @@
 package com.hillel.lecture_2;
 
+import io.qameta.allure.Step;
+
 /**
  * Created by alpa on 10/17/19
  */
 public class DistanceConverter {
 
+    @Step
     public double metersToInches(double meters) {
 //        TODO implements result
 
@@ -14,6 +17,7 @@ public class DistanceConverter {
         return inches;
     }
 
+    @Step
     public double inchesToMeters(double inches) {
 //        TODO implements result
 
@@ -22,6 +26,7 @@ public class DistanceConverter {
         return meters;
     }
 
+    @Step
     public double milesToKilometres(double miles) {
 //        TODO implements result
 
@@ -30,6 +35,7 @@ public class DistanceConverter {
         return kilometers;
     }
 
+    @Step
     public double kilometresToMiles(double kilometres) {
 //        TODO implements result
 

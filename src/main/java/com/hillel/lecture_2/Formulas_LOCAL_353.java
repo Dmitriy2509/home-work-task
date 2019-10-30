@@ -1,17 +1,12 @@
 package com.hillel.lecture_2;
 
-<<<<<<< HEAD
 import static java.lang.Math.E;
-=======
-import io.qameta.allure.Step;
->>>>>>> upstream/master
 
 /**
  * Created by alpa on 10/16/19
  */
 public class Formulas {
 
-    @Step
     public double calculate9Formula(double x) {
         // double result = 0.0;
 //        TODO implement formula 9
@@ -21,7 +16,6 @@ public class Formulas {
         return yFirst;
     }
 
-    @Step
     public double calculate10Formula(double x) {
         //double result = 0.0;
 //        TODO implement formula 10
@@ -29,7 +23,6 @@ public class Formulas {
         return ySecond;
     }
 
-    @Step
     public double calculate11Formula(double x) {
         // double result = 0.0;
         double yThird = 2d*Math.PI*x-Math.abs(Math.sin(Math.sqrt(10.5d*x)))*1d/Math.cbrt(Math.pow(x,2d))+1d/7d;
@@ -37,7 +30,6 @@ public class Formulas {
         return yThird;
     }
 
-    @Step
     public double calculate12Formula(double x) {
         //double result = 0.0;
 //        TODO implement formula 12
@@ -45,7 +37,6 @@ public class Formulas {
         return yForth;
     }
 
-    @Step
     public double calculate13Formula(double x) {
         //double result = 0.0;
 //        TODO implement formula 13

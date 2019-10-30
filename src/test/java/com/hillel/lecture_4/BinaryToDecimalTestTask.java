@@ -7,7 +7,7 @@ import static org.testng.Assert.assertEquals;
 /**
  * Написать программу, которая перевод десятичные числа в двоичные и наоборот.
  */
-/*public class BinaryToDecimalTestTask {
+public class BinaryToDecimalTestTask {
 
     private BinaryToDecimalChecker binaryToDecimalChecker = new BinaryToDecimalChecker();
 
@@ -25,7 +25,7 @@ import static org.testng.Assert.assertEquals;
         assertEquals(binaryToDecimalChecker.fromBinaryToDecimal(1100001001), expectedResult) ;
     }
 
-}*/
+}
 /* I broke the methods of this test. I write my code here.
 fromDecimalToBinary
 int result =0;
