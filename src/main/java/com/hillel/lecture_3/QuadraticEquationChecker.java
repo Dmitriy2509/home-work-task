@@ -25,7 +25,7 @@ public class QuadraticEquationChecker {
             System.out.println("discriminant can't be less than zero"+ discriminant);
             result ="No roots on the set of real numbers!";
         } else if (discriminant == 0){
-
+            System.out.println(x1=x2);
 
         } else if (discriminant>0){
             System.out.println("discriminant can be " +"x1=" + x1 +"x2=" + x2);

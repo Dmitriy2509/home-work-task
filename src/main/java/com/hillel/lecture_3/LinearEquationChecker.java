@@ -5,26 +5,37 @@ import io.qameta.allure.Step;
 /**
  * Created by alpa on 10/22/19
  */
-/*public class LinearEquationChecker {
+public class LinearEquationChecker {
 
-<<<<<<< HEAD
-    public double linearEquation(double a, double b) {
-=======
+
     @Step
     public int linearEquation(int a, int b) {
->>>>>>> upstream/master
+
 
 //        TODO implements result
-        double result = 0;
-        if(a==0 || b==0){
-        result= 0;
+        int result = 0;
+        if (a == 0 || b == 0) {
+            result = 0;
 
-    } else{
-            double x=-b/a;
-            result= x;
-    }
+        } else {
+            int x = -b / a;
+            result = x;
+        }
 
         return result;
 
 
-}*/
+    }
+}
+/*if (a>0 && b>0){
+// double x =-b/a;
+//result = x;
+// } else if (a==0){
+// System.out.println("error");
+//result =0.0;
+// } else if (b==0){
+// System.out.println("error");.
+//result =0.0;
+// }
+//return result;
+//  }*/

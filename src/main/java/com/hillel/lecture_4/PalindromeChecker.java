@@ -12,7 +12,7 @@ public class PalindromeChecker {
 
 //        TODO implements result
         boolean result = false;
-        boolean isPalindrome(String value) {
+        boolean isPalindrome (String value) {
             int n = value.length();
             for (int i = 0; i < (n/2); ++i) {
                 if (value.charAt(i) != value.charAt(n - i - 1)) {
@@ -22,6 +22,7 @@ public class PalindromeChecker {
 
             return result=true;
         }
+
         return result;
     }
 

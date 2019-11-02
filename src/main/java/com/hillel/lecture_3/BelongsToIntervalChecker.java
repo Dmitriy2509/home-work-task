@@ -14,8 +14,6 @@ public class BelongsToIntervalChecker {
     @Step
     public String checkNumberInInterval(int from, int to, int number) {
 
-        Scanner scan = new Scanner(System.in);
-        int numeric = scan.nextInt();
 
         String result = "";
 
@@ -59,8 +57,3 @@ public class BelongsToIntervalChecker {
         return result;
     }
 }
-/* if (int>-5){
-//
-// }else if (int<-5){
-//
-// }*/

@@ -13,7 +13,7 @@ public class BinaryToDecimalTestTask {
 
     @Test
     public void fromDecimalToBinaryTest() {
-        int expectedResult = 1010011010;
+        String expectedResult = "1010011010";
 
         assertEquals(binaryToDecimalChecker.fromDecimalToBinary(666), expectedResult) ;
     }
@@ -22,7 +22,7 @@ public class BinaryToDecimalTestTask {
     public void fromBinaryToDecimalTest() {
         int expectedResult = 777;
 
-        assertEquals(binaryToDecimalChecker.fromBinaryToDecimal(1100001001), expectedResult) ;
+        assertEquals(binaryToDecimalChecker.fromBinaryToDecimal("1100001001"), expectedResult) ;
     }
 
 }

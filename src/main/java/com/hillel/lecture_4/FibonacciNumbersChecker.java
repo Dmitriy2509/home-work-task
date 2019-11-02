@@ -17,16 +17,17 @@ public class FibonacciNumbersChecker {
         int n2;
         System.out.print(n0 + " " + n1 + " ");
 
-        for (int i = 3; i <= 100500; i++) {
+        for (int i = 3; i <= number; i++) {
             n2 = n0 + n1;
             System.out.print(n2 + " ");
             n0 = n1;
             n1 = n2;
-            if (n2 == number) {
-                break;
+
+            result =;
             }
+
         }
         return result;
     }
 
-}
+

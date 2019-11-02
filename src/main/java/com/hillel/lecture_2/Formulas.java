@@ -1,10 +1,10 @@
 package com.hillel.lecture_2;
 
-<<<<<<< HEAD
+
 import static java.lang.Math.E;
-=======
+
 import io.qameta.allure.Step;
->>>>>>> upstream/master
+
 
 /**
  * Created by alpa on 10/16/19

@@ -22,22 +22,10 @@ public class SquareAndCircleChecker {
         }
         return result;
     }
-<<<<<<< HEAD
-   /* public void checkCircleNotInSquare() {
 
-       if (circleArea<squareArea) {
-            System.out.println("The circle is in the square");
-            result = "The circle is in the square";
-        } else if (circleArea>squareArea){
-            System.out.println("the square is in The circle");
-            result = "  The circle is not in the square ";
-        }
-        return result;
-    }*/
-=======
 
     @Step
->>>>>>> upstream/master
+
     public String checkSquareInCircle(double circleArea, double squareArea) {
 
 //        TODO implements result

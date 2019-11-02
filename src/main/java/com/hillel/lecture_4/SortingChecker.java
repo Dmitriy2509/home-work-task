@@ -12,8 +12,24 @@ public class SortingChecker {
 
 //        TODO implements result
         int[] result = new int[0];
+
+        boolean isSorted = false;
+        int buf;
+        while(!isSorted) {
+            isSorted = true;
+            for (int i = 0; i < values.length-1; i++) {
+                if(values[i] > values[i+1]){
+                    isSorted = false;
+
+                    buf = values[i];
+                    values[i] = values[i+1];
+                    values[i+1] = buf;
+                    result=values[i];
+                }
+            }
+        }
         //sort by bubble sort
-        for (int i= values.length; i>0; i--){
+       /* for (int i= values.length; i>0; i--){
             for (int j =0; j<1; j++){
                 if(values[j]> values[j+1]){
                     int tmp = values[j];
@@ -23,7 +39,7 @@ public class SortingChecker {
                 }
                 result =  values;
             }result =  values;
-        }result =  values;
+        }result =  values;*/
 
         return result;
     }
@@ -33,7 +49,21 @@ public class SortingChecker {
 
 //        TODO implements result
         int[] result = new int[0];
+        boolean isSorted = false;
+        int buf;
+        while(!isSorted) {
+            isSorted = true;
+            for (int i = 0; i < values.length-1; i++) {
+                if(values[i] < values[i+1]){
+                    isSorted = false;
 
+                    buf = values[i];
+                    values[i] = values[i+1];
+                    values[i+1] = buf;
+                    result=values[i];
+                }
+            }
+        }
         return result;
     }
 }
