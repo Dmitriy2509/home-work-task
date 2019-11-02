@@ -7,8 +7,14 @@ public class PrintCharTestTask {
 
     public static void main(String[] args) {
 
-        int n =255;
-        for(int i=135; i<=n; i++){
+
+        showCharsBetweenTwoNumbers(135,255);
+
+    }
+    public static void showCharsBetweenTwoNumbers(int fromTheNumber, int toTheNumber){
+
+
+        for(int i=fromTheNumber; i<=toTheNumber; i++) {
             System.out.println(i);
         }
     }

@@ -18,9 +18,11 @@ public class RowSumTestTask {
         int [] column1 = { 12, 645, 65, 8763, 1353, 1351, 62};
         int sumOfColumn1 = IntStream.of(column1).sum();
         System.out.println(sumOfColumn1);
+
         int [] column2 = { 15, 878, 8631, 32, 1237, 781, 125};
         int sumOfColumn2 = IntStream.of(column2).sum();
         System.out.println(sumOfColumn2);
+
         int sumOfColumns = sumOfColumn1+ sumOfColumn2;
         System.out.println(sumOfColumns);
 

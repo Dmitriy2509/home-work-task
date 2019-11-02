@@ -7,13 +7,19 @@ public class SinTableTestTask {
 
     public static void main(String[] args) {
 
-        for( double i = 0; i <= 360; i = i+ 10 ){
+        printValueOfSin();
 
-            System.out.println("sin " + i + "" + " = " +Math.sin(i));
-
-            }
-        }
     }
+
+    public static void printValueOfSin() {
+
+        for (double i = 0; i <= 360; i = i + 10) {
+
+            System.out.println("sin " + i + "" + " = " + Math.sin(i));
+        }
+
+    }
+}
 // Result isn't correct, but I can't change it.
 
 
