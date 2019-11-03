@@ -2,7 +2,7 @@ package com.hillel.lecture_4;
 
 import io.qameta.allure.Step;
 
-/package com.hillel.lecture_4;
+///package com.hillel.lecture_4;
 
 import io.qameta.allure.Step;
 
@@ -15,7 +15,7 @@ public class BinaryToDecimalChecker {
 
 
         @Step
-        public int fromDecimalToBinary ( int value){
+        public String fromDecimalToBinary ( int value){
 
 
 //        TODO implements result
@@ -24,7 +24,9 @@ public class BinaryToDecimalChecker {
             //int result = 0;
             //result = Integer.toBinaryString(value);
             //int a = 2;
+            //result= Integer.toBinaryString(value);
             result= Integer.toBinaryString(value);
+
             //result = Integer.toString(value,2);
            // result = Integer.toString(value, 2);
 

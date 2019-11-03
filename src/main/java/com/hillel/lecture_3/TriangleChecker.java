@@ -35,7 +35,7 @@ public class TriangleChecker {
             if(b==3) {
                 if (c == 5) {
                     System.out.println("Isosceles triangle");
-                    result = "Isosceles triangle";
+                    result = "Isosceles triangle!";
 
                 }
             }
@@ -44,7 +44,7 @@ public class TriangleChecker {
             if(b==4) {
                 if (c == 4) {
                     System.out.println("Isosceles triangle");
-                    result = "Isosceles triangle";
+                    result = "Isosceles triangle!";
 
                 }
             }

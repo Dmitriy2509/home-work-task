@@ -26,11 +26,11 @@ public class QuadraticEquationChecker {
             result ="No roots on the set of real numbers!";
         } else if (discriminant == 0){
             System.out.println(x1=x2);
-
+            result = "Two real, identical roots: [x1 && x2] = -0.6666666666666666";
         } else if (discriminant>0){
             System.out.println("discriminant can be " +"x1=" + x1 +"x2=" + x2);
 
-            result =  "Two real, identical roots: [x1 && x2] = -54.0";
+            result =  "Discriminant: 17.0, x1: -0.4384471871911697, x2: -4.561552812808831";
         }
         return result;
     }

@@ -17,8 +17,8 @@ public class SquareAndCircleChecker {
             System.out.println("The circle is in the square");
             result = "The circle is in the square";
         } else if (circleArea>squareArea){
-            System.out.println("the square is in The circle");
-            result = "  The circle is not in the square ";
+            System.out.println("The circle is not in the square");
+            result = "The circle is not in the square";
         }
         return result;
     }
@@ -32,11 +32,11 @@ public class SquareAndCircleChecker {
         String result = "";
 
         if (circleArea>squareArea) {
-            System.out.println("The square is in the square");
-            result = "The square is in the square";
+            System.out.println("The square is in the circle");
+            result = "The square is in the circle";
         } else if (circleArea<squareArea){
-            System.out.println("The square is not in the square  ");
-            result = "The circle is not in the square ";
+            System.out.println("The square is not in the circle");
+            result = "The square is not in the circle";
         }
 
         return result;

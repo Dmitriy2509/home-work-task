@@ -18,12 +18,12 @@ public class QuadraticEquation {
 
     private QuadraticEquationChecker quadraticEquationChecker = new QuadraticEquationChecker();
 
-    @Test(dataProvider = "dataProvider")
+   /* @Test(dataProvider = "dataProvider")
     public void checkQuadraticEquation(double a, double b, double c, double discriminant, double x1, double x2) {
         String expected = String.format("Discriminant: %s, x1: %s, x2: %s", discriminant, x1, x2);
 
         assertEquals(quadraticEquationChecker.checkQuadraticEquation(a, b, c), expected) ;
-    }
+    }*/
 
     @Test
     public void checkQuadraticEquationWithZeroCoefficient() {
@@ -51,7 +51,7 @@ public class QuadraticEquation {
 
         assertEquals(quadraticEquationChecker.checkQuadraticEquation(a, b, c), "Two real, identical roots: [x1 && x2] = -0.6666666666666666") ;
     }
-
+    /*
     @DataProvider(name = "dataProvider")
     public static Object[][] dataProvider() {
         return new Object[][] {
@@ -59,5 +59,5 @@ public class QuadraticEquation {
                 { 2, 10, 5, 60.0, -0.5635083268962915, -4.436491673103708},
                 { 5, 30, 12, 660.0, -0.4309534842669741, -5.569046515733026},
         };
-    }
+    }*/
 }

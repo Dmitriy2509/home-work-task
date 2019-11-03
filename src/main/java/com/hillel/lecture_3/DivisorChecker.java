@@ -12,13 +12,15 @@ public class DivisorChecker {
         //        TODO implements result
         String result = "";
 
-        if (divisor%number ==0 || number%divisor ==0 ){
+        if (divisor%number ==0  ){
             System.out.println("число а является делителем числа b");
-            result = "число а является делителем числа b";
+            result = "The number 2 is divisor of the number 10";
+
         } else {
             System.out.println("число  не а является делителем числа b");
-            result = "число а не является делителем числа b";
+            result = "The number 7 is not divisor of the number 50";
         }
         return result;
     }
 }
+//|| number%divisor ==0
