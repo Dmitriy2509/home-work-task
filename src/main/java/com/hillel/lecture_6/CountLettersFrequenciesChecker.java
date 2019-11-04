@@ -14,6 +14,14 @@ public class CountLettersFrequenciesChecker {
 //        TODO implements result
         String result = "";
 
+        //count letters
+        //int countOfletters = text.chars().filter(num -> num == '$').count();
+
+        //
+
+
+
+
 
 
         return result;

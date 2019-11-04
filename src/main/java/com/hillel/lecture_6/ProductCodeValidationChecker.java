@@ -14,6 +14,8 @@ public class ProductCodeValidationChecker {
 //        TODO implements result
         boolean isValid = false;
 
+
+
         return isValid;
     }
 }
