@@ -14,6 +14,7 @@ public class UpperLowerCaseChecker {
 //        TODO implements result
         String result = "";
 
+        result = word.toUpperCase();
         return result;
     }
 
@@ -22,6 +23,8 @@ public class UpperLowerCaseChecker {
 
 //        TODO implements result
         String result = "";
+
+        result = word.toLowerCase();
 
         return result;
     }
@@ -32,6 +35,8 @@ public class UpperLowerCaseChecker {
 //        TODO implements result
         String result = "";
 
+
+
         return result;
     }
 
@@ -40,6 +45,8 @@ public class UpperLowerCaseChecker {
 
 //        TODO implements result
         String result = "";
+
+
 
         return result;
     }
