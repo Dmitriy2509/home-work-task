@@ -17,7 +17,19 @@ public class CountLettersFrequenciesChecker {
         //count letters
         //int countOfletters = text.chars().filter(num -> num == '$').count();
 
-        //
+        //count a char
+        /*int charCount = 0;
+        char temp;
+
+        for (int i = 0; i <text.length() ; i++) {
+
+            temp =text.charAt(i);
+
+            if (text.)
+            charCount++;
+            System.out.println(charCount);
+        }*/
+
 
 
 
