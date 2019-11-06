@@ -14,6 +14,8 @@ public class SquareWordPatternChecker {
 //        TODO implements result
         String result = "";
 
+        //result =word.substring(1) + word.substring(0,1);
+        result =word.substring(1) + word.substring(0,1);
         return result;
     }
 

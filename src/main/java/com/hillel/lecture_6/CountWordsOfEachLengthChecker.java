@@ -1,6 +1,7 @@
 package com.hillel.lecture_6;
 
 import io.qameta.allure.Step;
+import org.apache.commons.lang.StringUtils;
 
 /**
  * Created by alpa on 11/2/19
@@ -19,7 +20,8 @@ public class CountWordsOfEachLengthChecker {
 
             for (int i = 0; i < sentence.length(); i++) {
 
-                if(sentence.charAt(i) == ' '){
+
+                if(sentence.charAt(i) == wordLength){
 
                     result++;
                 }
@@ -28,8 +30,10 @@ public class CountWordsOfEachLengthChecker {
 
         }
 
+
         return result;
     }
 
 
 }
+//

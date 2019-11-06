@@ -35,7 +35,7 @@ public class UpperLowerCaseChecker {
 //        TODO implements result
         String result = "";
 
-
+        result = sentence.substring(0,1).toUpperCase()+ sentence.substring(1);
 
         return result;
     }
@@ -45,6 +45,7 @@ public class UpperLowerCaseChecker {
 
 //        TODO implements result
         String result = "";
+
 
 
 
