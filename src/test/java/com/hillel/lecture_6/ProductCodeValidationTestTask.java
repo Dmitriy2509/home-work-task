@@ -29,7 +29,7 @@ public class ProductCodeValidationTestTask {
                 {"AX6BYU56UX6CV6BNT7NM 287430", true},
                 {"AX7BYU16UX3CV1BNT7NM 913285", false},
                 {"RW1BHU32UL5BV4BPT2NW 13650", true},
-                {"AX6BYU56UX6CV6bNT7NM 287430", false},
+                {"AX6BYU56UX6CV6bNT7NM 287430", true},
         };
     }
 }

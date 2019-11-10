@@ -12,10 +12,20 @@ public class SquareWordPatternChecker {
     public String applySquareWordPattern(String word) {
 
 //        TODO implements result
-        String result = "";
+        String result = word;
 
         //result =word.substring(1) + word.substring(0,1);
-        result =word.substring(1) + word.substring(0,1);
+        //result =word.substring(1) + word.substring(0,1);
+
+        String words = word;
+
+        for (int i = 1; i < word.length(); i++) {
+
+            words = words.substring(1)+ words.charAt(0);
+            result= result + ", " + words;
+
+
+        }
         return result;
     }
 
