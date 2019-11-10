@@ -34,6 +34,8 @@ public class CountWordsOfEachLengthChecker {
             }
 
         }*/
+
+            /*Use this one.
            String words [] = sentence.split("[^a-zA-Z]");
 
            int i, size = wordLength, count = 0;
@@ -49,11 +51,10 @@ public class CountWordsOfEachLengthChecker {
             }
 
             result = count;
-        }
+        }*/
 
         return result;
     }
 
 
 }
-//
