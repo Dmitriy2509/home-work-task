@@ -18,6 +18,23 @@ package com.hillel.basic.exam;
 public class NumberRotator {
 
     public static long rotate(long n) {
+
+
+       /* String nFirst =String.valueOf(n);
+        //convert to String
+        String nToString = String.valueOf(n);
+
+        for (int i = 1; i < nToString.length(); i++) {
+
+            nToString = nToString.substring(1) + nToString.charAt(0);
+            String result = nFirst + ", " + nToString;
+            nToString = nToString.substring(1) + nToString.charAt(0);
+            String result = nFirst + ", " + nToString;
+
+
+
+
+        }*/
         return 0;
     }
 }

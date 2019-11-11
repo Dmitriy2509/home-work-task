@@ -50,9 +50,10 @@ public class FractionNumber {
         //String    changeToString  = " ";
 
         String changeToString = String.valueOf(result);
-        System.out.println(changeToString);
+        System.out.println("Result=" + changeToString);
+        String resultP = "Result=" + changeToString;
 
-        return changeToString;
+        return  resultP;
     }
 
 

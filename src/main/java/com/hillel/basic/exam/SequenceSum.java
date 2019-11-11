@@ -25,6 +25,27 @@ package com.hillel.basic.exam;
 public class SequenceSum {
 
     public static String showSequence(int value) {
+
+        /*int a =0;
+        int a2=1;*/
+
+        //enter number
+        int lastNamber=6;
+        if(lastNamber>0) {
+
+            for (int i = 0; i < value; i++) {
+                /*int a0 = 0;
+                int a1=a0+1;
+                int a2 = a2+*/
+
+            }
+
+        } else if (lastNamber<0){
+            System.out.println(lastNamber + "<0");
+        } else if (lastNamber==0){
+            System.out.println(lastNamber + "=0");
+        }
+        
         return null;
     }
 }

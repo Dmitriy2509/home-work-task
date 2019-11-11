@@ -42,7 +42,6 @@ public class UpperLowerCaseChecker {
 
             arrayString[i]=arrayString[i].trim();
             arrayString[i] =arrayString[i].substring(0,1).toUpperCase() + arrayString[i].substring(1);
-
         }
 
         result = String.join(". ", arrayString);
@@ -61,7 +60,27 @@ public class UpperLowerCaseChecker {
 //        TODO implements result
         String result = "";
 
-        String s="";
+        StringBuilder builder = new StringBuilder(sentence);
+
+        if(Character.isAlphabetic(sentence.codePointAt(0))){
+           builder.setCharAt(0,Character.toUpperCase(sentence.charAt(0)));
+        }
+
+        for (int i = 1; i <sentence.length() ; i++) {
+          if(Character.isAlphabetic(sentence.charAt(i)) && Character.isSpaceChar(sentence.charAt(i-1))){
+
+            builder.setCharAt(i, Character.toUpperCase(sentence.charAt(i)));
+          }
+          result = builder.toString();
+        }
+        return result;
+        }
+
+
+        //return builder.toString; //result;
+    }
+
+/*String s="";
         s=s+sentence.substring(0,1).toUpperCase();
         for (int i = 1; i <sentence.length() ; i++) {
 
@@ -70,11 +89,4 @@ public class UpperLowerCaseChecker {
                 s=s+sentence.substring(i,i+1).toUpperCase();
             } else{
                 s=s+sentence.substring(i,i+1);
-            }
-
-        }
-
-
-        return result;
-    }
-}
+            }*/

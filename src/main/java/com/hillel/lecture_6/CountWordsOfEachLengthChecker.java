@@ -14,6 +14,37 @@ public class CountWordsOfEachLengthChecker {
 //        TODO implements result
         int result = 0;
 
+        String [] words  = sentence.split("[^a-zA-Z]");
+
+        int  size = words.length, length =wordLength, count = 0;
+
+
+        for (int i = 0; i < size; i++) {
+
+
+            if (words[i].length() ==length){
+
+                ++count;
+
+            }
+            result = count;
+        }
+        return result;
+
+         /* for (int i = 0; i < sentence.length(); i++) {
+            for (int j = 0; j < wordLength; j++) {
+
+                if (sentence.length()== wordLength) {
+                    count++;
+            }
+
+            }*/
+
+
+        /*for (int i = 0; i < sentence.length(); i++) {
+            if
+
+        }*/
         /*if (sentence.length() !=0){
 
             result++;*/
@@ -53,7 +84,7 @@ public class CountWordsOfEachLengthChecker {
             result = count;
         }*/
 
-        return result;
+        //return result;
     }
 
 
