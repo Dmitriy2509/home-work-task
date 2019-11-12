@@ -20,21 +20,36 @@ public class NumberRotator {
     public static long rotate(long n) {
 
 
-       /* String nFirst =String.valueOf(n);
+       // String nFirst =String.valueOf(n);
         //convert to String
-        String nToString = String.valueOf(n);
+        //String nToString = String.valueOf(n);
+        String nToLong =Long.toString(n);
 
-        for (int i = 1; i < nToString.length(); i++) {
+        String first = nToLong.substring(1)+ nToLong.charAt(0);
+        //67895
 
-            nToString = nToString.substring(1) + nToString.charAt(0);
-            String result = nFirst + ", " + nToString;
-            nToString = nToString.substring(1) + nToString.charAt(0);
-            String result = nFirst + ", " + nToString;
+        String second =first.charAt(0) +first.substring(2,4)+first.charAt(1);
+        //68957
 
+        String third = second.substring(0,1)+ second.substring(3,4)+ second.charAt(2);
+        //68579
+        String fourth = third.substring(0,2)+ third.charAt(4)+ third.charAt(3);
+        //68597
 
-
+        /*for (int i = 1; i < n.; i++) {
 
         }*/
+
+            /*nToString = nToString.substring(1) + nToString.charAt(0);
+            String result = nFirst + ", " + nToString;
+            nToString = nToString.substring(1) + nToString.charAt(0);
+            String result = nFirst + ", " + nToString;*/
+
+
+
+
+
+
         return 0;
     }
 }

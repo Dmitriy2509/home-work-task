@@ -19,9 +19,35 @@ public class JadenCase {
 
     public String toJadenCase(String phrase) {
 
+        String result = "";
+
+        StringBuilder builder = new StringBuilder(phrase);
+
+        if(phrase==null){
+
+            //result ="Must return null when the arg is null";
+            result=null;
+            return result ;
+        }
+        if (phrase==""){
+
+            return null;
+                    //"Must return null when the arg is null";
+        }
+        if (Character.isAlphabetic(phrase.codePointAt(0))) {
+            builder.setCharAt(0, Character.toUpperCase(phrase.charAt(0)));
+        }
+
+        for (int i = 1; i < phrase.length(); i++) {
+            if (Character.isAlphabetic(phrase.charAt(i)) && Character.isSpaceChar(phrase.charAt(i - 1))) {
+
+                builder.setCharAt(i, Character.toUpperCase(phrase.charAt(i)));
+            }
+        }
+            result = builder.toString();
 
 
-
-        return null;
+            return result;
+        }
     }
-}
+

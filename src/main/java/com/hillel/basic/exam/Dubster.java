@@ -30,20 +30,23 @@ public class Dubster {
 
 
 
-        /*String letterFoRemove ="WUB";
-        String result= song.replaceAll(letterFoRemove, "");
-        if (){
-
-        }
-        String lettersForRemove ="WUBWUB";*/
-
+        String letterFoRemove ="WUB";
+        String letterForRemove2 = "WUBWUBWUB";
+        String result1= song.replaceAll(letterForRemove2, " ");
+        String result2 = result1.replaceAll(letterFoRemove, "");
+        String result = result2.trim();
 
 
 
+        //String lettersForRemove ="WUBWUB";
 
 
 
 
-        return null;
+
+
+
+
+        return result;
     }
 }
