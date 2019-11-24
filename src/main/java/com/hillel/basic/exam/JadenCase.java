@@ -21,14 +21,16 @@ public class JadenCase {
 
         String result = "";
 
+        if(phrase == null){
+
+            result ="Must return null when the arg is null";
+            //result=null;
+            return null ;
+        }
+
         StringBuilder builder = new StringBuilder(phrase);
 
-        if(phrase==null){
 
-            //result ="Must return null when the arg is null";
-            result=null;
-            return result ;
-        }
         if (phrase==""){
 
             return null;
