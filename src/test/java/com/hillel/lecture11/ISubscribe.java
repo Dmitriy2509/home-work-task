@@ -3,7 +3,7 @@ package com.hillel.lecture11;
 public interface ISubscribe {
 
     public void subscribeGroup();
-    public void thumbedThroughGroup();
+    public int thumbedThroughGroup(int like, int dislike);
     public void leaveGroup();
 
 }

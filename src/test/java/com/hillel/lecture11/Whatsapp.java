@@ -20,8 +20,16 @@ public class Whatsapp extends Messenger implements ISendMessageToCloud {
 
     }
 
+
+
+
     @Override
-    public void sendMessageToFiles() {
-        System.out.println("Use the cloud for saving files");
+    public void sendMessageToFiles( int upload) {
+
+        if(upload>0) {
+            int result = upload;
+            System.out.println(result);
+
+        }
     }
 }
